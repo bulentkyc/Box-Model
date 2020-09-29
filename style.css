@@ -18,7 +18,7 @@ main > section {
     border-radius: 20px;
     border: 3px solid brown;
     overflow: hidden;
-    background-color: #f0efeb;
+    background-color: white;
     margin-bottom: 50px;
 }
 
@@ -42,6 +42,8 @@ main > section > section > div{
     background-color: #99c1de;
     border: 5px solid #229894;
     border-radius: 5px;
+    font-size: initial;
+    line-height: initial;
 }
 
 main > section:first-child > section:nth-of-type(1) > div {
@@ -109,3 +111,23 @@ main > section:nth-child(2) > section:nth-of-type(5) > div {
     background-color: #b0c9dc;
     cursor: pointer;
 }
+
+/* main > section {
+    float: right;
+    width: 100%;
+}
+
+main {
+    height: 5000px;;
+} */
+
+
+main > section:nth-of-type(3) > section{
+    color: black;
+    text-align: center;
+}
+
+main > section:nth-of-type(3) > section:nth-of-type(2) > div {
+    display:inline-block;
+}
+
