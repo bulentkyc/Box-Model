@@ -131,3 +131,7 @@ main > section:nth-of-type(3) > section:nth-of-type(2) > div {
     display:inline-block;
 }
 
+main > section:nth-of-type(3) > section:nth-of-type(3) > div {
+    display: inline;
+}
+
