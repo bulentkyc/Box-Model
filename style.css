@@ -1,17 +1,25 @@
 body {
     background-color: #1d3557;
-    width:70%;
+    width:70vw;
     margin: auto;
     color: white;
+    overflow-x: hidden;
 }
 
-main > img {
+main > img:nth-of-type(1) {
     width: 100%;
+}
+
+main > img:nth-of-type(2) {
+    width: 100vw;
+    height: 100vh;
+    margin-left: -15vw
 }
 
 main {
     width: 100%;
     text-align: center;
+
 }
 
 main > section {
@@ -167,4 +175,7 @@ main > section:nth-of-type(4) > section:nth-of-type(3) > div:nth-of-type(2) {
     overflow-wrap: normal;
 }
 
-
+main > div {
+    width: 100vw;
+    margin-left: -15vw;
+}
